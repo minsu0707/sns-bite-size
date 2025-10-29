@@ -11,4 +11,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  // vite가  이 서버 폴더 아래에 있는 모든 파일들을 감지하지 않게 됨
+  server: {
+    watch: {
+      ignored: ["**/server/**"],
+    },
+  },
 });
+  
