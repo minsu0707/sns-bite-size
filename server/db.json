@@ -4,41 +4,6 @@
       "id": "1",
       "content": "Todo 1",
       "isDone": true
-    },
-    {
-      "id": "2",
-      "content": "Todo 2",
-      "isDone": true
-    },
-    {
-      "id": "3",
-      "content": "Todo 3",
-      "isDone": false
-    },
-    {
-      "id": "6cad",
-      "content": "1234",
-      "isDone": false
-    },
-    {
-      "id": "816f",
-      "content": "asdf",
-      "isDone": false
-    },
-    {
-      "id": "75a1",
-      "content": "123123123",
-      "isDone": false
-    },
-    {
-      "id": "9ce9",
-      "content": "asdf",
-      "isDone": false
-    },
-    {
-      "id": "5c42",
-      "content": "a",
-      "isDone": false
     }
   ]
 }

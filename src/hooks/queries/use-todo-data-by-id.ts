@@ -1,13 +1,14 @@
 import { fetchTodoById } from "@/api/fetch-todo-by-id";
+import { QUERY_KEYS } from "@/lib/constants";
 import { useQuery } from "@tanstack/react-query";
 
 export function useTodoDataById(id: string) {
   return useQuery({
     queryFn: () => fetchTodoById(id),
-    queryKey: ["todos", id],
+    queryKey: QUERY_KEYS.todo.detail(id),
 
     // staleTime은 데이터가 fresh 상태일 때만 유효함
-    staleTime: 5000,
+    staleTime: 300000,
     gcTime: 5000,
 
     // 1초 마다 api 호출
